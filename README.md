@@ -23,17 +23,13 @@ LegalEase AI transforms complex legal jargon into clear, understandable language
 
 ---
 
-## 📸 Demo
-![Demo Screenshot](link-to-screenshot.png)  
-*Example: Sale deed analyzed with risks + simplified clauses.*
 
----
 
 ## 🔧 Tech Stack
-- **Frontend:** React / Next.js (or whatever you used)  
-- **Backend:** Node.js / Flask  
-- **AI:** OpenAI API (GPT models)  
-- **Deployment:** Vercel / Heroku / Netlify  
+  
+- **Backend:** Node.js 
+- **AI:** Google Gemini  
+
 
 ---
 
@@ -49,12 +45,5 @@ LegalEase AI transforms complex legal jargon into clear, understandable language
 - Multi-language support  
 - Deeper legal risk scoring  
 - Lawyer review integration  
-
----
-
-## 📩 Contact
-- Developer: *Your Name*  
-- GitHub: [Repo Link]  
-- Email: [Your email]  
 
 ---
