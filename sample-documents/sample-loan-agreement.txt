@@ -1,0 +1,51 @@
+PERSONAL LOAN AGREEMENT
+
+This Personal Loan Agreement ("Agreement") is made and entered into on January 15, 2024, between ABC Lending Company, a corporation organized under the laws of the State of [State] ("Lender"), and Michael Johnson, an individual residing at 456 Oak Avenue, City, State 12345 ("Borrower").
+
+1. LOAN AMOUNT
+The Lender agrees to lend to the Borrower the principal sum of Twenty-Five Thousand Dollars ($25,000.00) ("Principal Amount").
+
+2. INTEREST RATE
+The loan shall bear interest at a fixed rate of eight and one-half percent (8.5%) per annum, calculated on the outstanding principal balance.
+
+3. REPAYMENT TERMS
+The Borrower shall repay the Principal Amount plus interest in equal monthly installments of Seven Hundred Fifty Dollars ($750.00) each, due on the first day of each month, beginning February 1, 2024, and continuing for a period of thirty-six (36) months.
+
+4. LATE PAYMENT CHARGES
+If any payment is not received by the Lender within ten (10) days after its due date, the Borrower shall pay a late charge of Twenty-Five Dollars ($25.00) for each late payment.
+
+5. DEFAULT RATE
+Upon the occurrence of an Event of Default, the interest rate on the outstanding principal balance shall increase to twelve percent (12%) per annum.
+
+6. COLLATERAL
+As security for the repayment of this loan, the Borrower hereby grants to the Lender a security interest in the following collateral: 2020 Honda Civic, VIN: 1HGCV1F3XLA123456.
+
+7. DEFAULT
+The following shall constitute Events of Default under this Agreement:
+a) Failure to make any payment when due;
+b) Bankruptcy or insolvency of the Borrower;
+c) Any material misrepresentation made by the Borrower in connection with this loan.
+
+8. ACCELERATION
+Upon the occurrence of an Event of Default, the Lender may, at its option, declare the entire outstanding principal balance and accrued interest immediately due and payable.
+
+9. COLLECTION COSTS
+In the event of default, the Borrower shall be responsible for all costs of collection, including but not limited to reasonable attorney's fees and court costs.
+
+10. PREPAYMENT
+The Borrower may prepay this loan in whole or in part at any time without penalty.
+
+11. GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the laws of the State of [State].
+
+12. ENTIRE AGREEMENT
+This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, or agreements.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement on the date first written above.
+
+Lender: ABC Lending Company
+By: _________________ Date: _________
+Title: Loan Officer
+
+Borrower: _________________ Date: _________
+Michael Johnson
