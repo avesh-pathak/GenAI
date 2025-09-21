@@ -102,12 +102,7 @@ The `vercel.json` file is already configured with:
       "src": "/(.*)",
       "dest": "/public/$1"
     }
-  ],
-  "functions": {
-    "api/index.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
 ```
 
