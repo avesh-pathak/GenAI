@@ -464,7 +464,9 @@ body {
 
 /* Chat Interface */
 .chat-container {
-    height: 300px;
+    height: 500px; /* Increased height for better chat experience */
+    max-width: 800px; /* Added max-width to prevent excessive stretching */
+    margin: 0 auto; /* Center the chat container */
     display: flex;
     flex-direction: column;
 }

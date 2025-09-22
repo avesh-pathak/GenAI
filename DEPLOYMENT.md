@@ -85,33 +85,41 @@ The `vercel.json` file is already configured with:
   "version": 2,
   "builds": [
     {
-      "src": "./api/index.js",
+      "src": "server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "./public/**/*",
+      "src": "public/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/index.js"
+      "dest": "server.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/public/$1"
+      "dest": "public/$1"
     }
   ]
 }
 ```
 
+### Build Process
+
+The `build.js` script ensures that:
+1. The `public` directory exists
+2. Static files are properly organized
+3. Required directories (`uploads`) are created
+
 ### File Structure for Vercel
 
-The project now includes:
-- `api/index.js` - Serverless function entry point
-- `server.js` - Main Express application
-- `public/` - Static files (HTML, CSS, JS)
+The project uses a simple structure:
+- `server.js` - Main Express application (serves as serverless function)
+- `public/` - Static files (HTML, CSS, JS) - created during build
+- `services/` - Backend AI services
+- `build.js` - Build script that ensures public directory exists
 - `vercel.json` - Vercel deployment configuration
 
 ## Post-Deployment Checklist
