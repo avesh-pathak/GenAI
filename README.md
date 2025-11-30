@@ -41,6 +41,14 @@ LegalEase AI is a comprehensive platform that uses Google's Gemini AI to:
 - **Simplified Clauses**: Complex terms explained in plain language
 - **Risk Indicators**: Visual risk level indicators
 - **Actionable Recommendations**: Next steps for users
+- **Interactive Glossary**: In-context definitions of legal terms
+
+### Modern User Interface
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Drag & Drop Upload**: Intuitive file upload interface
+- **Visual Risk Indicators**: Color-coded risk levels
+- **Interactive Cards**: Organized information display
+- **Smooth Animations**: Professional user experience
 
 ### 🔍 Advanced Features
 - **Document Comparison**: Side-by-side analysis of multiple documents
@@ -122,7 +130,8 @@ LegalEase AI is a comprehensive platform that uses Google's Gemini AI to:
 │   ├── documentProcessor.js # Document parsing and processing
 │   ├── riskAnalyzer.js    # Risk assessment algorithms
 │   ├── documentComparison.js # Document comparison logic
-│   └── legalTemplates.js  # Legal document templates
+│   ├── legalTemplates.js  # Legal document templates
+│   └── fileUpload.js      # File upload configuration
 ├── .env                   # Environment variables
 ├── config.js              # Configuration settings
 ├── server.js              # Main server file

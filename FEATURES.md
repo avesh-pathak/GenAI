@@ -31,6 +31,7 @@ LegalEase AI is a comprehensive AI-powered platform that transforms complex lega
 - **Visual Risk Indicators**: Color-coded risk levels
 - **Interactive Cards**: Organized information display
 - **Smooth Animations**: Professional user experience
+- **Improved Footer Design**: Modern and consistent footer design
 
 ### 📋 **Document Processing Engine**
 - **Text Extraction**: Advanced parsing for multiple file formats
@@ -128,6 +129,8 @@ LegalEase AI is a comprehensive AI-powered platform that transforms complex lega
 - Color-coded risk indicators
 - Simplified clause explanations
 - Actionable recommendations
+- Copy to Clipboard for Clauses
+- Interactive Glossary of Legal Terms
 
 ### **Chat Interface**
 - Natural language questions

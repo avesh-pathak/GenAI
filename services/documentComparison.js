@@ -1,8 +1,10 @@
 const AIService = require('./aiService');
+const RiskAnalyzer = require('./riskAnalyzer');
 
 class DocumentComparison {
   constructor() {
     this.aiService = new AIService();
+    this.riskAnalyzer = new RiskAnalyzer();
   }
 
   async compareDocuments(doc1Text, doc2Text, doc1Name, doc2Name) {
@@ -12,6 +14,16 @@ class DocumentComparison {
         this.aiService.analyzeDocument(doc1Text, doc1Name),
         this.aiService.analyzeDocument(doc2Text, doc2Name)
       ]);
+
+      // Perform risk assessment for both documents
+      const [doc1Risk, doc2Risk] = await Promise.all([
+        this.riskAnalyzer.assessRisks(doc1Text, doc1Analysis),
+        this.riskAnalyzer.assessRisks(doc2Text, doc2Analysis)
+      ]);
+
+      // Add risk assessment to the analysis
+      doc1Analysis.riskAssessment = doc1Risk;
+      doc2Analysis.riskAssessment = doc2Risk;
 
       // Get detailed comparison
       const comparison = await this.aiService.compareDocuments(doc1Analysis, doc2Analysis);

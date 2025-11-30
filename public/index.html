@@ -13,10 +13,10 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-brand">
+            <a href="/" class="nav-brand">
                 <i class="fas fa-balance-scale"></i>
                 <span>LegalEase AI</span>
-            </div>
+            </a>
             <div class="nav-links">
                 <a href="#features">Features</a>
                 <a href="#how-it-works">How It Works</a>
@@ -85,6 +85,40 @@
                     </div>
                     <p id="progressText">Analyzing document...</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section id="comparison-section" class="comparison-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Compare Two Documents</h2>
+                <p>Upload two documents to see a detailed comparison of their contents.</p>
+            </div>
+            <div class="comparison-container">
+                <div class="comparison-upload-area" id="comparisonUploadArea1">
+                    <div class="upload-content">
+                        <i class="fas fa-file-upload"></i>
+                        <h3>Upload Document 1</h3>
+                        <p>or click to browse</p>
+                        <input type="file" id="comparisonDocumentInput1" accept=".pdf,.doc,.docx,.txt" hidden>
+                    </div>
+                </div>
+                <div class="comparison-upload-area" id="comparisonUploadArea2">
+                    <div class="upload-content">
+                        <i class="fas fa-file-upload"></i>
+                        <h3>Upload Document 2</h3>
+                        <p>or click to browse</p>
+                        <input type="file" id="comparisonDocumentInput2" accept=".pdf,.doc,.docx,.txt" hidden>
+                    </div>
+                </div>
+            </div>
+            <div class="comparison-button-container">
+                <button id="compare-button" class="btn-primary btn-large">
+                    <i class="fas fa-exchange-alt"></i>
+                    Compare Documents
+                </button>
             </div>
         </div>
     </section>
@@ -271,6 +305,9 @@
         </div>
     </section>
 
+
+
+
     <!-- Pricing Section -->
     <section id="pricing-section" class="pricing-section">
         <div class="container">
@@ -350,9 +387,9 @@
                     <a href="#terms">Terms of Service</a>
                     <a href="#contact">Contact</a>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 LegalEase AI. All rights reserved.</p>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 LegalEase AI. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
@@ -366,6 +403,7 @@
         </div>
     </div>
 
+    <script src="glossary.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
